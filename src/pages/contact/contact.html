@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-navbar color="roxo">
+    <ion-title>
+      Cadastro
+      <ion-icon name="md-create"></ion-icon>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+  <form>
+    <ion-item>
+      <ion-label floating>Música
+        <ion-icon name="ios-musical-notes"></ion-icon>
+      </ion-label>
+      <ion-input type="text" name="nome" clearInput="true" [(ngModel)]="evento.nome" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Artista
+      <ion-icon name="ios-person"></ion-icon>
+    </ion-label>
+      <ion-input type="text" name="artista" clearInput="true" [(ngModel)]="evento.artista" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Tipo
+      <ion-icon name="md-musical-note"></ion-icon>
+    </ion-label>
+      <ion-input type="text" name="tipo" clearInput="true" [(ngModel)]="evento.tipo" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Trecho - 1 linha
+      <ion-icon name="md-create"></ion-icon>
+    </ion-label>
+      <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechoum" required></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label floating>Trecho - 2 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechodois" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 3 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechotres" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 4 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechoquatro" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 5 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechocinco" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 6 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechoseis" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 7 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechosete" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 8 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechooito" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 9 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechonove" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Trecho - 10 linha
+        <ion-icon name="md-create"></ion-icon>
+      </ion-label>
+        <ion-input type="text" name="trecho" clearInput="true" [(ngModel)]="evento.trechodez" required></ion-input>
+      </ion-item>
+
+
+  <button style="position:relative; right: -15px; width:93%;" color="roxo" type="submit" ion-button block full icon-left (click)="CadMusica(evento)">
+    <ion-icon name="send"></ion-icon>Enviar
+  </button>
+  </form>
+  </ion-list>
+</ion-content>

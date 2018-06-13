@@ -1,0 +1,52 @@
+{
+  "musica": [
+    {
+      "id": 1,
+      "nome": "Propaganda",
+      "artista": "Jorge e Matheus",
+      "tipo": "Sertanejo",
+      "trechoum": "Tá doido que eu vou",
+      "trechodois": "Fazer propaganda de você",
+      "trechotres": "Isso não é medo de te perder, amor",
+      "trechoquatro": "É pavor",
+      "trechocinco": "É minha, cuido mesmo, pronto e acabou.",
+      "trechoseis": "",
+      "trechosete": "",
+      "trechooito": "",
+      "trechonove": "",
+      "trechodez": ""
+    },
+    {
+      "nome": "Photograph",
+      "artista": "Ed Sheeran",
+      "tipo": "Românticas",
+      "trechoum": "Loving can heal",
+      "trechodois": "Loving can mend your soul",
+      "trechotres": "And is the only thing that I know, know",
+      "trechoquatro": "I swear it will get easier",
+      "trechocinco": "Remember that with every piece of ya",
+      "trechoseis": "And is the only thing we take with us when we die",
+      "trechosete": "",
+      "trechooito": "",
+      "trechonove": "",
+      "trechodez": "",
+      "id": 2
+    },
+    {
+      "nome": "The Scientist",
+      "artista": "Coldplay",
+      "tipo": "Romantica",
+      "trechoum": "Nobody said it was easy",
+      "trechodois": "Oh, it's such a shame for us to part",
+      "trechotres": "Nobody said it was easy",
+      "trechoquatro": "No one ever said it would be so hard",
+      "trechocinco": "I'm going back to the start",
+      "trechoseis": "",
+      "trechosete": "",
+      "trechooito": "",
+      "trechonove": "",
+      "trechodez": "",
+      "id": 3
+    }
+  ]
+}

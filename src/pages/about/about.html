@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="roxo">
+    <ion-title>
+      Músicas <ion-icon name="md-musical-notes"></ion-icon>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let n of dados">
+      <h2 style="color:#8e24aa; text-align: center"><b>{{ n.nome }}</b></h2>
+      <h3><b>Artista: </b><span style="color:#e91e63;">{{ n.artista }}</span></h3>
+      <h3><b>Ritmo: </b>{{ n.tipo }}</h3>
+      <h3 style="text-align: center"><b>Trecho: </b></h3>
+      <p><b>{{ n.trechoum }}</b></p>
+      <p><b>{{ n.trechodois }}</b></p>
+      <p><b>{{ n.trechotres }}</b></p>
+      <p><b>{{ n.trechoquatro }}</b></p>
+      <p><b>{{ n.trechocinco }}</b></p>
+      <p><b>{{ n.trechoseis }}</b></p>
+      <p><b>{{ n.trechosete }}</b></p>
+      <p><b>{{ n.trechooito }}</b></p>
+      <p><b>{{ n.trechonove }}</b></p>
+      <p><b>{{ n.trechodez }}</b></p>
+
+    <button class="butao" color="roxo" type="submit" ion-button block full icon-left (click)="Delete(n.id)">
+   <ion-icon name="ios-trash" ></ion-icon>Excluir
+    </button>
+
+    </ion-item>
+  </ion-list>
+</ion-content>
